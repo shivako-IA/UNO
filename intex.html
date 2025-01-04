@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Backtesting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Plataforma de Backtesting</h1>
+    </header>
+    
+
+    <main>
+        <section id="input-section">
+            <h2>Introduzca los parametros de la estrategia</h2>
+            <label for="strategy">Estrategia</label>
+            <input type="text" id="strategy" placeholder="Nombre de la estrategia">
+            
+            <label for="parameter">Parametro</label>
+            <input type="number" id="parameter" placeholder"Valor del parametro">
+
+            <button id="backtest-btn">Ejecutar Backtest</button>
+        </section>
+
+        <section id="result-section">
+            <h2>Resultados</h2>
+            <div id="results">
+                <!-- Los resultados del backtest se mostraran aqui-->
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
